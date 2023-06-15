@@ -3,7 +3,7 @@ export class Produto{
     produto: string = "";
     descricao: string = "";
     foto: string = "";
-    preco: number = 0;
+    preco: number = 0;;
 
     constructor(id: number, produto: string, foto:string, preco: number){
         this.id = id;
